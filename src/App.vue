@@ -5,6 +5,7 @@
     <main-content/>
     <info-shop/>
     <footer-app/>
+    <social-section/>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import JumboContainer from './components/JumboContainer.vue'
 import MainContent from './components/MainContent.vue'
 import InfoShop from './components/InfoShop.vue'
 import FooterApp from './components/FooterApp.vue'
+import SocialSection from './components/SocialSection.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     JumboContainer,
     MainContent,
     InfoShop,
-    FooterApp
+    FooterApp,
+    SocialSection
   }
 }
 </script>
