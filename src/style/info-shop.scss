@@ -18,6 +18,7 @@ section {
             display: flex;
             align-items: center;
             height: 60px;
+            z-index: 1000;
             img {
                 height: 100%;
             }

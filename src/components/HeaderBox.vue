@@ -3,16 +3,15 @@
         <img src="@/assets/dc-logo.png" alt="">
         <nav>
             <ul>
-                <li>CARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <li> <a href="#"> Caracters </a></li>
+                <li> <a href="#"> Comics </a></li>
+                <li> <a href="#"> Movies </a></li>
+                <li> <a href="#"> Tv </a></li>
+                <li> <a href="#"> Games </a></li>
+                <li> <a href="#"> Videos </a></li>
+                <li> <a href="#"> Fans </a></li>
+                <li> <a href="#"> News </a></li>
+                <li> <a href="#"> Shop </a></li>
             </ul>
         </nav>
     </header>
@@ -42,13 +41,16 @@ header {
             list-style: none;
             display: flex;
             align-items: center;
-            li{
-                padding: 25px 10px;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 36px 20px;
                 color: $second-txt-bg-color;
                 cursor: pointer;
                 &:hover{
                     color: $third-txt-bg-color;
-                    border-bottom: 4px #0282f9 solid;
+                    border-bottom: 5px #0282f9 solid;
+                    font-weight: 700;
                 }
             }
     }

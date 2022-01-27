@@ -4,6 +4,7 @@
     <jumbo-container/>
     <main-content/>
     <info-shop/>
+    <footer-app/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderBox from './components/HeaderBox.vue'
 import JumboContainer from './components/JumboContainer.vue'
 import MainContent from './components/MainContent.vue'
 import InfoShop from './components/InfoShop.vue'
+import FooterApp from './components/FooterApp.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     HeaderBox,
     JumboContainer,
     MainContent,
-    InfoShop
+    InfoShop,
+    FooterApp
   }
 }
 </script>
