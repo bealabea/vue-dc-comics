@@ -53,40 +53,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/style/variables.scss';
-footer {
-    height: 400px;
-    background: url(../assets/footer-bg.jpg) no-repeat top;
-    background-size: cover;
-    .footer-container {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        .logo-img {
-            align-self: center;
-        img {
-            width: 600px;
-        }
-        }
-        .footer-nav {
-            display: flex;
-            ul{
-                margin: 25px 50px 0 0;
-                list-style: none;
-                a {
-                    text-decoration: none;
-                    color: #b9b9b9;
-                    line-height: 23px;
-                    &:hover {
-                        color: $first-txt-color;
-                    }
-                }
-            }
-            h3{
-                margin: 15px 0;
-            }
-        }
-    }
-}
+@import '@/style/footer-app.scss';
 </style>
