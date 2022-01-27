@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <header-box/>
+    <jumbo-container/>
+    <main-content/>
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
+import JumboContainer from './components/JumboContainer.vue'
+import MainContent from './components/MainContent.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderBox
+    HeaderBox,
+    JumboContainer,
+    MainContent
   }
 }
 </script>
