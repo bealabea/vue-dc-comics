@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box/>
+    <header-box :nav="nav"/>
     <jumbo-container/>
     <main-content/>
     <info-shop/>
@@ -26,7 +26,59 @@ export default {
     InfoShop,
     FooterApp,
     SocialSection
+  },
+  data(){
+    return{
+      nav: [
+        {
+          id:'5qYS5oUTVu',
+          label: 'Caracters',
+          url: '/'
+        },
+        {
+          id:'YsU3URmXbu',
+          label: 'Comics',
+          url: '/'
+        },
+        {
+          id:'GzKNJfkaHX',
+          label: 'Movies',
+          url: '/'
+        },
+        {
+          id:'oI5s8dyKWT',
+          label: 'Tv',
+          url: '/'
+        },
+        {
+          id:'uqk3rcAYFP',
+          label: 'Games',
+          url: '/'
+        },
+        {
+          id:'XA7RoQ4Gfn',
+          label: 'Videos',
+          url: '/'
+        },
+        {
+          id:'1NqhGHvcR3',
+          label: 'Fans',
+          url: '/'
+        },
+        {
+          id:'ftQLeScsea',
+          label: 'News',
+          url: '/'
+        },
+        {
+          id:'JON0yi8Lly',
+          label: 'Shop',
+          url: '/'
+        },
+      ]
+    }
   }
+
 }
 </script>
 
