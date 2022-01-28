@@ -17,6 +17,7 @@
                 outline: none;
                 background-color: #333;
                 color: $first-txt-color;
+                cursor: pointer;
             }
             .social-icons {
                 display: flex;
@@ -25,6 +26,7 @@
                     margin-right: 20px;
                     color: $third-txt-bg-color;
                     font-weight: 700;
+                    cursor: pointer;
                 }
                 img{
                     margin: 0 10px;

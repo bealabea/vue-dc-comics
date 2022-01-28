@@ -1,0 +1,46 @@
+main {
+  background-color: $second-txt-bg-color;
+  color: $first-txt-color;
+  .section-title {
+    position: relative;
+    top: -25px;
+    left: 200px;
+    width: 300px;
+    padding: 10px;
+    background-color: $third-txt-bg-color;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .main-container {
+    width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .cards {
+      width: 200px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      cursor: pointer;
+      .card-image {
+        margin: 20px 0 15px 0;
+        height: 200px;
+        overflow: hidden;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .button-cards {
+    text-align: center;
+    padding: 20px;
+    button {
+      padding: 10px 50px;
+      border: none;
+      background-color: #0282f9;
+      color: $first-txt-color;
+      cursor: pointer;
+    }
+  }
+}
